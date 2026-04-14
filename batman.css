@@ -42,6 +42,15 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    animation-name: bat;
+    animation-duration: 2.5s;
+}
+
+@keyframes bat {
+    to {
+
+        rotate: 360deg;
+    }
 }
 
 li:hover {
