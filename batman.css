@@ -9,6 +9,8 @@
 body {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.336), rgb(0, 0, 0)), url(2025-08-11T143530.664Z-batman2LEAD\ \(1\).jpg);
     background-size: cover;
+    height: 100vh;
+    background-position: center;
 }
 
 .header {
