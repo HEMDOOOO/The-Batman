@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.767);
+    font-family: 'BATMAN', sans-serif;
+    letter-spacing: 5px;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.336), rgb(0, 0, 0)), url(2025-08-11T143530.664Z-batman2LEAD\ \(1\).jpg);
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    list-style: none;
+    margin: 40px;
+}
+
+a {
+    margin: 40px 0 0 40px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 60px;
+    transition: 0s;
+}
+
+.logo:hover {
+    transform: scale(2.5);
+    color: rgba(255, 0, 0, 0);
+    background-image: url(black-logo-batman-png-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+li:hover {
+
+    transform: scale(1.5);
+
+}
+
+.body {
+    width: 50%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 100px;
+    position: relative;
+    left: 50px;
+    top: 70px;
+    transition: 0.8s;
+    letter-spacing: 10px;
+    font-family: 'BATMAN', sans-serif;
+    text-transform: uppercase;
+}
+
+h1:hover {
+    margin-left: 160px;
+    transform: scale(1.3);
+    color: black;
+}
+
+p {
+    font-size: 30px;
+    letter-spacing: 2.5px;
+    line-height: 1.5;
+    width: 70%;
+    position: relative;
+    top: 110px;
+    left: 70px;
+    color: rgba(0, 0, 0, 0.986);
+}
+
+button {
+    position: relative;
+    top: 150px;
+    left: 600px;
+    width: 400px;
+    border-radius: 50px;
+    border: 4px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
