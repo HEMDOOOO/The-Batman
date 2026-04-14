@@ -11,6 +11,7 @@ body {
     background-size: cover;
     height: 100vh;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .header {
@@ -116,7 +117,7 @@ button {
     cursor: pointer;
     transition: 0.7s;
 }
-button:hover
-{
+
+button:hover {
     transform: scale(1.3);
 }
