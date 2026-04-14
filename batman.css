@@ -53,6 +53,10 @@ a {
     }
 }
 
+li {
+    transition: 0.5s;
+}
+
 li:hover {
 
     transform: scale(1.5);
